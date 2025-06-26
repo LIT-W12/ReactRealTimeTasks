@@ -37,7 +37,7 @@ const Login = () => {
                     <br />
                     <input onChange={onTextChange} value={formData.password} type="password" name="password" placeholder="Password" className="form-control" />
                     <br />
-                    <button className="btn btn-primary">Login!!</button>
+                    <button className="btn info">Login!! :)</button>
                 </form>
                 <Link to="/signup">Sign up for a new account</Link>
             </div>
