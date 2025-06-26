@@ -46,7 +46,7 @@ const Signup = () => {
             <br />
             <input onChange={onTextChange} value={formData.password} type="password" name="password" placeholder="Password" className="form-control" />
             <br />
-            <button className="btn btn-primary">Signup</button>
+            <button className="btn btn-danger w-100">Signup</button>
           </form>
         </div>
       </div>
