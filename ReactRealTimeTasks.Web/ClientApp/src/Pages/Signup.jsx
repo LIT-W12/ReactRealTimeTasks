@@ -35,7 +35,7 @@ const Signup = () => {
   return (
       <div className="row" style={{ minHeight: "80vh", display: "flex", alignItems: "center" }}>
         <div className="col-md-6 offset-md-3 bg-light p-4 rounded shadow">
-          <h3>Sign up for a new account</h3>
+          <h3>This is the spot to create a new account</h3>
           {emailExists && <span className='text-danger'>This is an email that's already in use. blah blah.</span>}
           <form onSubmit={onFormSubmit}>
             <input onChange={onTextChange} value={formData.firstName} type="text" name="firstName" placeholder="First Name" className="form-control" />
